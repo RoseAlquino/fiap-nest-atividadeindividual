@@ -13,6 +13,6 @@ export class RegisterController {
 		console.log('Senha:', password);
 		console.log('Site:', site);
 		console.log('Phone:', phone);
-		return this.registerService.registerLogin(name, email, password, site, phone);
+		return `Cliente ${name} cadastrado com sucesso!`;
 }
 }
